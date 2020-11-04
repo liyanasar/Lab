@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body style="margin:auto;width:65%;margin-top:30px;font-family:arial">
+<form style="text-align:center">
+<input type="text" placeholder="Name" required style="width:250px"/><br /><br />
+Gender: 
+M <input type="radio" value="male" name="gender" />
+F <input type="radio" value="female" name="gender" />
+O <input type="radio" value="others" name="gender" /><br /><br />
+<input type="email" placeholder="Email Id" /><br /><br />
+DOB <input type="date" /><br /><br />
+<input type="password" placeholder="Password" /><br /><br />
+<textarea rows="4" cols="30" placeholder="Address"></textarea><br /><br />
+Programme <input type="text" list="programmes" />
+<datalist id="programmes">
+<option value="Computer Science" />
+<option value="Physics" />
+<option value="Chemistry" />
+<option value="Mathematics" />
+<option value="Statistics" />
+</datalist><br /><br />
+University <select>
+<option>Kannur University</option>
+<option>University of Calicut</option>
+<option>MG University</option>
+<option>Kerala University</option>
+</select><br /><br />
+Languages Known: 
+Malayalam <input type="checkbox" value="malayalam" />
+English <input type="checkbox" value="english" />
+Hindi <input type="checkbox" value="hindi" /><br /><br />
+<button type="reset">Clear</button>
+<button type="submit"><a href="submit.html">Submit</a></button>
+</form>
+</body>
+</html>
